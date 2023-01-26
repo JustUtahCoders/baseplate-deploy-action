@@ -4,7 +4,7 @@ specifiers:
   '@actions/core': ^1.10.0
   '@babel/core': ^7.20.12
   '@babel/eslint-parser': ^7.19.1
-  '@baseplate-sdk/cli': ^1.0.1
+  '@baseplate-sdk/cli': ^1.0.2
   '@changesets/changelog-github': ^0.4.8
   '@changesets/cli': ^2.26.0
   '@vercel/ncc': ^0.36.1
@@ -16,7 +16,7 @@ specifiers:
 
 dependencies:
   '@actions/core': 1.10.0
-  '@baseplate-sdk/cli': 1.0.1
+  '@baseplate-sdk/cli': 1.0.2
 
 devDependencies:
   '@babel/core': 7.20.12
@@ -1231,8 +1231,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@baseplate-sdk/cli/1.0.1:
-    resolution: {integrity: sha512-j5AFZtEXw5pfhoaYQzIEd+spEKn+OKmC9ckTe+EJ44YfOwZ5eIS2xwfBauoIC1ZQzE8zkARVagHgxtjlv0pHNA==}
+  /@baseplate-sdk/cli/1.0.2:
+    resolution: {integrity: sha512-iBup6JmDnEX9uLGomYPaVARtf9fdLuCi+AcwfIjbGGkjigCCwpIWGwwJWnfSiypka5m0UUvcFAR2yv3F0vY0FQ==}
     hasBin: true
     dependencies:
       '@aws-sdk/client-s3': 3.259.0
