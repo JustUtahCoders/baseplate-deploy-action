@@ -21,6 +21,7 @@ jobs:
         with:
           version: 7.26.0
       - run: git checkout main && git checkout $GITHUB_SHA
+      - run: find .
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
       - run: pnpm run check-format
