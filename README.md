@@ -7,7 +7,8 @@ Github action for deploying to baseplate
 Within your Github Workflow yaml file, add the following. You'll need to replace `GIT_TAG` with the latest published version. See [the changelog](/CHANGELOG.md) to find the latest version.
 
 ```yml
-uses: JustUtahCoders/baseplate-deploy-action@GIT_TAG
+# Replace 1.1.0 with the latest version found in CHANGELOG.md
+uses: JustUtahCoders/baseplate-deploy-action@1.1.0
 with:
   baseplate-token: ${{ secrets.BASEPLATE_TOKEN }}
   microfrontend-name: navbar
