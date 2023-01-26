@@ -15,3 +15,6 @@ inputs:
 runs:
   using: "node16"
   main: "dist/index.mjs"
+  env:
+    # Until Github actions let us upgrade to a newer version of Node, we need this flag
+    NODE_OPTIONS: --experimental-fetch
