@@ -1,0 +1,29 @@
+{
+  "name": "baseplate-deploy-action",
+  "version": "1.0.0",
+  "description": "A github action for deploying microfrontends to Baseplate",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint src",
+    "check-format": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "baseplate",
+    "github",
+    "action",
+    "deploy",
+    "microfrontends",
+    "single-spa"
+  ],
+  "author": "Joel Denning",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "eslint": "^8.32.0",
+    "eslint-config-important-stuff": "^1.1.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3",
+    "pretty-quick": "^3.1.3"
+  }
+}
