@@ -6,7 +6,8 @@
     "prepare": "husky install",
     "lint": "eslint src",
     "check-format": "prettier --check .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "echo \"no tests yet\" && exit 0"
   },
   "keywords": [
     "baseplate",
