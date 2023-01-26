@@ -4,10 +4,11 @@
   "description": "A github action for deploying microfrontends to Baseplate",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint src",
+    "lint": "eslint src --ext mjs",
     "check-format": "prettier --check .",
     "format": "prettier --write .",
-    "build": "ncc build src/baseplate-deploy-action --license LICENSE",
+    "local-run": "node src/baseplate-deploy-action.mjs",
+    "build": "ncc build src/baseplate-deploy-action.mjs --license LICENSE",
     "test": "echo \"no tests yet\" && exit 0"
   },
   "keywords": [
@@ -34,6 +35,6 @@
   },
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@baseplate-sdk/cli": "^1.0.1"
+    "@baseplate-sdk/cli": "^1.0.2"
   }
 }
