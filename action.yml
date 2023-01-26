@@ -1,0 +1,18 @@
+name: "Deploy to Baseplate"
+description: "Deploy microfrontends to Baseplate"
+inputs:
+  baseplate-token:
+    description: "BASEPLATE_TOKEN is a service account token with deploy access"
+    required: true
+  microfrontend-name:
+    description: The name of the Baseplate microfrontend to be deployed
+  environment-name:
+    description: The name of the Baseplate environment to deploy to
+  upload-dir:
+    description: The directory containing all files for this microfrontend's deployment
+  entry-file:
+    description: The entry file that will be put into the import map. This is a relative file path within the upload dir.
+outputs:
+runs:
+  using: "node18"
+  main: "dist/index.js"
