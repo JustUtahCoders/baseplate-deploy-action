@@ -1,4 +1,7 @@
 {
   "extends": "important-stuff",
-  "parser": "@babel/eslint-parser"
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "node": true
+  }
 }

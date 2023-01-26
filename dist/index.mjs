@@ -43794,6 +43794,8 @@ __nccwpck_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 
 
 try {
+  // eslint-disable-next-line no-console
+  console.log("NODE_OPTIONS", process.env.NODE_OPTIONS);
   await (0,_baseplate_sdk_cli__WEBPACK_IMPORTED_MODULE_1__/* .deploy */ .F)({
     baseplateToken: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("baseplate-token"),
     dir: (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("upload-dir"),
