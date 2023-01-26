@@ -3,6 +3,8 @@ FROM node:18
 RUN npm install -g pnpm
 COPY package.json .
 COPY src src
+RUN pwd
+RUN find .
 RUN npm pkg delete scripts.prepare
 RUN pnpm install --production
 ENTRYPOINT node src/baseplate-deploy-action.mjs
