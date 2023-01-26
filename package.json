@@ -8,7 +8,6 @@
     "check-format": "prettier --check .",
     "format": "prettier --write .",
     "local-run": "node src/baseplate-deploy-action.mjs",
-    "build": "rimraf dist && ncc build src/baseplate-deploy-action.mjs --license LICENSE",
     "test": "echo \"no tests yet\" && exit 0"
   },
   "keywords": [
