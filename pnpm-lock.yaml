@@ -4,7 +4,7 @@ specifiers:
   '@actions/core': ^1.10.0
   '@babel/core': ^7.20.12
   '@babel/eslint-parser': ^7.19.1
-  '@baseplate-sdk/cli': ^1.0.2
+  '@baseplate-sdk/cli': ^1.1.0
   '@changesets/changelog-github': ^0.4.8
   '@changesets/cli': ^2.26.0
   '@vercel/ncc': ^0.36.1
@@ -17,7 +17,7 @@ specifiers:
 
 dependencies:
   '@actions/core': 1.10.0
-  '@baseplate-sdk/cli': 1.0.2
+  '@baseplate-sdk/cli': 1.1.0
 
 devDependencies:
   '@babel/core': 7.20.12
@@ -1233,14 +1233,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@baseplate-sdk/cli/1.0.2:
-    resolution: {integrity: sha512-iBup6JmDnEX9uLGomYPaVARtf9fdLuCi+AcwfIjbGGkjigCCwpIWGwwJWnfSiypka5m0UUvcFAR2yv3F0vY0FQ==}
+  /@baseplate-sdk/cli/1.1.0:
+    resolution: {integrity: sha512-p8eKnsScAxi3jBA45JAJDMldM2YUwRSUyY/IU4OItaUrQUQT4N5LStp+yZ4H8TS3G3PbvIL/9hWhrHiKpgU3vQ==}
     hasBin: true
     dependencies:
       '@aws-sdk/client-s3': 3.259.0
       '@baseplate-sdk/utils': 3.1.2
       '@baseplate-sdk/web-app': 2.0.3
-      '@types/node': 17.0.45
+      '@types/node': 18.11.18
       '@types/yargs': 17.0.20
     transitivePeerDependencies:
       - '@aws-sdk/signature-v4-crt'
@@ -1752,19 +1752,19 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 17.0.45
+      '@types/node': 18.11.18
     dev: false
 
   /@types/connect/3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.11.18
     dev: false
 
   /@types/continuation-local-storage/3.2.4:
     resolution: {integrity: sha512-OT32vCVMymU1JMPKDeY0lX3cduAr0Pm/VwIbxygMeDS4lRcv57qYXn9bMwBRcRnEpXKBb/r4xYaZCARTZllP0A==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.11.18
     dev: false
 
   /@types/cookie-session/2.0.44:
@@ -1783,7 +1783,7 @@ packages:
   /@types/express-serve-static-core/4.17.33:
     resolution: {integrity: sha512-TPBqmR/HRYI3eC2E5hmiivIzv+bidAfXofM+sbonAGvyDhySGw9/PQZFt2BLOrjUUR++4eJVpx6KnLQK1Fk9tA==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.11.18
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
     dev: false
@@ -1845,6 +1845,10 @@ packages:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
     dev: false
 
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+    dev: false
+
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
@@ -1852,7 +1856,7 @@ packages:
   /@types/oauth/0.9.1:
     resolution: {integrity: sha512-a1iY62/a3yhZ7qH7cNUsxoI3U/0Fe9+RnuFrpTKr+0WVOzbKlSLojShCKe20aOD1Sppv+i8Zlq0pLDuTJnwS4A==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.11.18
     dev: false
 
   /@types/passport-github/1.1.7:
@@ -1939,7 +1943,7 @@ packages:
     resolution: {integrity: sha512-z5xyF6uh8CbjAu9760KDKsH2FcDxZ2tFCsA4HIMWE6IkiYMXfVoa+4f9KX+FN0ZLsaMw1WNG2ETLA6N+/YA+cg==}
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 17.0.45
+      '@types/node': 18.11.18
     dev: false
 
   /@types/validator/13.7.11:
@@ -5169,7 +5173,7 @@ packages:
   /wkx/0.5.0:
     resolution: {integrity: sha512-Xng/d4Ichh8uN4l0FToV/258EjMGU9MGcA0HV2d9B/ZpZB3lqQm7nkOdZdm5GhKtLLhAE7PiVQwN4eN+2YJJUg==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.11.18
     dev: false
 
   /word-wrap/1.2.3:
